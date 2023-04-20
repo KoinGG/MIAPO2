@@ -6,8 +6,6 @@ namespace MIAPO
     {
         static void Main(string[] args)
         {
-            Again:
-
             Console.WriteLine("\n МЕНЮ \n");
             Console.WriteLine(" 1) Генерация случайного числа\n" +
                               " 2) Конвертирование даты\n" +
@@ -71,8 +69,7 @@ namespace MIAPO
                     }
             }
 
-            goto Again;
-
+            Main(args);
         }
     }
 }
