@@ -10,7 +10,7 @@ namespace MIAPO
     {
         public static void ConvertDateFormat()
         {
-            Console.Write("Введите дату в формате дд.мм.гггг: ");
+            Console.Write("\n Введите дату в формате дд.мм.гггг: ");
             string date = Console.ReadLine();
 
             string[] dateParts = date.Split('.'); 
@@ -19,7 +19,7 @@ namespace MIAPO
             string year = dateParts[2]; 
             string newDate = month + "/" + day + "/" + year;
 
-            Console.WriteLine($"Ваша дата в формате мм/дд/гггг - {newDate}");
+            Console.WriteLine($" Ваша дата в формате мм/дд/гггг - {newDate}");
         }
     }
 }

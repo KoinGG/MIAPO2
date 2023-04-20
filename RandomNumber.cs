@@ -10,16 +10,16 @@ namespace MIAPO
     {
         public static void GenerateRandomNumber()
         {
-            Console.Write("Введите минимальное число: ");
+            Console.Write("\n Введите минимальное число: ");
             int minNum = int.Parse(Console.ReadLine());
 
-            Console.Write("Введите максимальное число: ");
+            Console.Write(" Введите максимальное число: ");
             int maxNum = int.Parse(Console.ReadLine());
 
             Random random = new Random(); 
             int randomNumber = random.Next(minNum, maxNum);
 
-            Console.WriteLine($"\nВаше случайное число: {randomNumber}");
+            Console.WriteLine($"\n Ваше случайное число: {randomNumber}");
         }
     }
 }

@@ -10,7 +10,7 @@ namespace MIAPO
     {
         public static void IsPalindrome()
         {
-            Console.Write("\nВведите текст для проверки на палиндром: ");
+            Console.Write("\n Введите текст для проверки на палиндром: ");
             string text = Console.ReadLine();
 
             string reversedText = "";
@@ -22,11 +22,11 @@ namespace MIAPO
 
             if(text == reversedText)
             {
-                Console.WriteLine("\nТекст является палиндромом");
+                Console.WriteLine("\n Ваш екст является палиндромом");
             }
             else
             {
-                Console.WriteLine("\nТекст не является палиндромом");
+                Console.WriteLine("\n Ваш текст не является палиндромом");
             }
         }
     }
