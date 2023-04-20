@@ -6,7 +6,7 @@ namespace MIAPO
     {
         static void Main(string[] args)
         {
-            Palindrome.IsPalindrome();
+        
         }
     }
 }
